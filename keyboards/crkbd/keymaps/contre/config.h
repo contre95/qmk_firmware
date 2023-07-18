@@ -27,9 +27,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MASTER_LEFT
 // #define MASTER_RIGHT
 // #define EE_HANDS
-
+#define COMBO_COUNT 3
 //#define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
-#define TAP_CODE_DELAY 1
-
-#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+#define TAPPING_TERM_PER_KEY
+#define LONG_TAPPING_TERM 300
+// #define PERMISSIVE_HOLD
